@@ -1,0 +1,110 @@
+{
+  "sections": {
+    "main": {
+      "type": "faq",
+      "blocks": {
+        "9903035e-01d2-4052-a142-d044bf578747": {
+          "type": "Headline",
+          "settings": {
+            "headline": "Product"
+          }
+        },
+        "e1e56671-0db3-492e-9a75-194fe45faf35": {
+          "type": "QA",
+          "settings": {
+            "title": "sorts of products",
+            "question": "What Sorts Of Products Do You Carry?",
+            "answer": "<p>We carry all sorts of items from home decorations, art, stationary to apparel. The one common thread between all our products is that they were made in a small batch process by small makers. Our focus is on small brands who produce locally or, if overseas, they produce sustainably and with transparency. <\/p>"
+          }
+        },
+        "2f0a1dda-aba9-4b72-9e29-b358cfe3ebe3": {
+          "type": "QA",
+          "settings": {
+            "title": "samples seconds",
+            "question": "What is the difference between Regulars, samples and seconds?",
+            "answer": "<p>We note the status of each product directly under the product title on each product page.<\/p><p><a href=\"\/collections\/regulars\" title=\"Regulars\"><strong>Regulars<\/strong><\/a> are pieces that are excess inventory from past seasons. They are in new condition. <\/p><p><a href=\"\/collections\/samples\" title=\"Samples\"><strong>Samples<\/strong><\/a> are one offs that have been made for fitting or styling purposes. They may have been worn in a photoshoot or for fitting and are therefore not considered new. There is normally only one in existence. It might never have made it into production. <\/p><p><a href=\"\/collections\/second\" title=\"Seconds\"><strong>Seconds<\/strong><\/a> are pieces that have a slight imperfection. That imperfection is noted in the description and the photo. They are in new condition.<\/p>"
+          }
+        },
+        "87da1fa1-ceca-4448-8508-967cab05d8d1": {
+          "type": "Headline",
+          "settings": {
+            "headline": "Shipping"
+          }
+        },
+        "8c457e0f-1161-480e-ba25-0655a2e71ca2": {
+          "type": "QA",
+          "settings": {
+            "title": "shipping time",
+            "question": "How Long Will It Take To Receive My Order?",
+            "answer": "<p>We typically take between 2-7 days to fulfill your order. Shipping time depends on your location and in the USA is between 3-8 business days and International can take between 10-30 days.<\/p>"
+          }
+        },
+        "dab07eff-4883-4eaa-9a95-89dbc8d7445d": {
+          "type": "QA",
+          "settings": {
+            "title": "where do you ship from",
+            "question": "Where do you ship from?",
+            "answer": "<p>We ship from Portland, Oregon but we are slowly adding makers from all over the US. If you order a drop ship product they will be shipping it from their location.<\/p>"
+          }
+        },
+        "aba5bc0d-0fae-4f79-8b88-696e9a193846": {
+          "type": "QA",
+          "settings": {
+            "title": "shipping partners",
+            "question": "How Do You Ship?",
+            "answer": "<p>We use Fed Ex, USPS, DHL and UPS. It depends on what service offers the best shipping rate. For lighter orders it's normally USPS and for orders over 3 pounds it tends to be UPS.<br\/><br\/><\/p>"
+          }
+        },
+        "82289034-c016-4e4f-bae3-8c16940b8989": {
+          "type": "QA",
+          "settings": {
+            "title": "shipping issues",
+            "question": "What happens if my shipment doesn't arrive?",
+            "answer": "<p>If you purchased our <a href=\"https:\/\/www.corso.com\/impact\">Green Shipping Protection<\/a> which offsets your carbon footprint and completely protects your package from unforeseen shipping issues you will be sent out a replacement or offered a full refund. <\/p><p>If it's been more than 7 working days since your order was shipped please check your shipping confirmation email for any address mistakes and check with your local post office. If you made an error with your address we will refund your order once we receive it back again. If your order has been shipped but shows undelivered after 30 days we refund you in full. <\/p>"
+          }
+        },
+        "8e63e5e8-758d-45e3-9418-7ebd5d60ddb7": {
+          "type": "Headline",
+          "settings": {
+            "headline": "Return Policy"
+          }
+        },
+        "503bac35-d9df-461a-85c1-e3380ea0dab4": {
+          "type": "QA",
+          "settings": {
+            "title": "return policy",
+            "question": "What is your return policy?",
+            "answer": "<p>We accept returns of unused items within 30 days of purchase.<\/p><p>We are an outlet store and unfortunately, we cannot offer refunds on any item unless the item arrived damaged past the scope of the product description, we sent you the wrong item or you purchased Green Shipping Insurance and you did not receive your package.<\/p><p>This is because we pay our makers commissions on each sale. We <strong>do offer<\/strong> exchanges on any unused item with tags attached within 30 days of purchase. Upon receipt we will issue you a store credit minus the shipping cost for you to use whenever you like.<\/p><p><strong>Damages and Other Issues<\/strong><br\/>Please inspect your order upon receiving and contact us immediately if the item is defective, damaged or if you receive the wrong item, so that we can evaluate the issue and make it right by shipping you the correct item or offering you a store credit.<\/p><p><br\/><br\/><br\/><\/p>"
+          }
+        },
+        "bb8f605b-bd25-4969-a880-e4e127ab041a": {
+          "type": "QA",
+          "settings": {
+            "title": "exchange",
+            "question": "Can I exchange an item?",
+            "answer": "<p>Sure thing! Exchanges are allowed on unused items with all tags attached within 30 days of purchase. Upon receipt we will issue you a store credit minus the shipping cost to use whenever you like online or in our shop.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "9903035e-01d2-4052-a142-d044bf578747",
+        "e1e56671-0db3-492e-9a75-194fe45faf35",
+        "2f0a1dda-aba9-4b72-9e29-b358cfe3ebe3",
+        "87da1fa1-ceca-4448-8508-967cab05d8d1",
+        "8c457e0f-1161-480e-ba25-0655a2e71ca2",
+        "dab07eff-4883-4eaa-9a95-89dbc8d7445d",
+        "aba5bc0d-0fae-4f79-8b88-696e9a193846",
+        "82289034-c016-4e4f-bae3-8c16940b8989",
+        "8e63e5e8-758d-45e3-9418-7ebd5d60ddb7",
+        "503bac35-d9df-461a-85c1-e3380ea0dab4",
+        "bb8f605b-bd25-4969-a880-e4e127ab041a"
+      ],
+      "settings": {
+        "heading": "FAQs"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

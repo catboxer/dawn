@@ -1,0 +1,85 @@
+/*
+=============== 
+FAQuestions
+===============
+*/
+
+  /* h2.faq-titles {
+    color: #e9226b;
+  } */
+  .question {
+    border-radius: 6px;
+     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
+     padding: 1.5rem 1.5rem 0 1.5rem;
+     margin-bottom: 2rem;
+   }
+   .question-title {
+     flex-direction: column;
+     text-transform: capitalize;
+     padding-bottom: 1rem;
+   }
+   
+   .question .question-label {
+     display:flex; 
+     justify-content: space-between; 
+     /* padding:1em;  */
+     font-size: 1.5rem;
+     font-weight: 700;
+     text-transform: capitalize;
+   }
+   
+   .answer {
+     padding: 1rem 0 1.5rem 0;
+     /* border-top: 1px solid #e9226b; */
+   }
+   .answer p {
+     padding: 0 24px 0;
+     margin: 0;
+     text-transform: none;
+     font-style: oblique;
+     font-weight: 400;
+   }
+   .question .question-toggle:checked ~ .answer{
+     /* border: 1px solid #e9226b; */
+   }
+   /* font awesome */
+   
+   .question .question-label::after {
+     content: url('pink-plus.svg');
+     display: inline-block;
+     -webkit-font-smoothing: antialiased;
+     height: 24px;
+     width: 24px;
+     cursor: pointer;
+     background-color: transparent;
+     transition: all 0.3s linear;
+   }
+   
+    .question .question-toggle:checked ~ .question-label::after  {
+     content: url('pink-minus.svg');
+     display: inline-block;
+     -webkit-font-smoothing: antialiased;
+     height: 24px;
+     width: 24px;
+     cursor: pointer;
+     background-color: transparent;
+     transition: all 0.3s linear;
+   }
+   /* hide answer */
+    .question .answer { 
+           background-color: #f6ff6d; 
+           border-radius: 30px;
+           max-height: 0px; 
+           overflow: hidden; 
+           transition: all .4s; 
+           padding: 0 1em; 
+         } 
+       .question .question-toggle:checked ~ .answer { 
+           max-height: 100vh; 
+           padding:0 .2em 0 .2em; }
+   
+ /* hide checkbox  */
+ input.question-toggle{
+   display:none;
+ }
+ 

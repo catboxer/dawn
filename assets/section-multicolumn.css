@@ -62,9 +62,11 @@
   max-width: 72rem;
 }
 
-.multicolumn:not(.background-none) .multicolumn-card {
-  background: rgba(var(--color-foreground), 0.04);
-  height: 100%;
+.multicolumn:not(.background-none) .multicolumn-card {	
+  border: 4px dashed #e9226b;	
+  border-radius: 10px;	
+  /* background: rgba(var(--color-foreground), 0.04); */	
+  height: 100%;	
 }
 
 .multicolumn.background-secondary .multicolumn-card {

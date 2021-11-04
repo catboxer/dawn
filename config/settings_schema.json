@@ -1,11 +1,11 @@
 [
   {
     "name": "theme_info",
-    "theme_name": "Dawn",
-    "theme_version": "2.3.0",
-    "theme_author": "Shopify",
-    "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn",
-    "theme_support_url": "https://support.shopify.com/"
+    "theme_name": "MakerOutlet",
+    "theme_version": "1.0.0",
+    "theme_author": "The This That",
+    "theme_documentation_url": "https:\/\/help.shopify.com\/manual\/online-store\/themes\/os20\/themes-by-shopify\/dawn",
+    "theme_support_url": "https:\/\/support.shopify.com\/"
   },
   {
     "name": "t:settings_schema.colors.name",
@@ -83,6 +83,19 @@
         "id": "gradient_background_2",
         "type": "color_background",
         "label": "t:settings_schema.colors.settings.gradient_background_2.label"
+      },
+      {
+        "type": "color",
+        "id": "colors_custom_1",
+        "default": "#121212",
+        "label": "t:settings_schema.colors.settings.colors_custom_1.label",
+        "info": "t:settings_schema.colors.settings.colors_custom_1.info"
+      },
+      {
+        "type": "color",
+        "id": "colors_custom_2",
+        "default": "#334FB4",
+        "label": "t:settings_schema.colors.settings.colors_custom_2.label"
       }
     ]
   },
@@ -155,6 +168,10 @@
           {
             "value": "background-2",
             "label": "t:settings_schema.styles.settings.sale_badge_color_scheme.options__1.label"
+          },
+          {
+            "value": "custom-1",
+            "label": "t:settings_schema.styles.settings.sale_badge_color_scheme.options__4.label"
           }
         ],
         "default": "accent-2",
@@ -171,6 +188,10 @@
           {
             "value": "inverse",
             "label": "t:settings_schema.styles.settings.sold_out_badge_color_scheme.options__2.label"
+          },
+          {
+            "value": "custom-2",
+            "label": "t:settings_schema.styles.settings.sale_badge_color_scheme.options__3.label"
           }
         ],
         "default": "inverse",
@@ -199,6 +220,14 @@
           {
             "value": "text",
             "label": "t:settings_schema.styles.settings.accent_icons.options__4.label"
+          },
+          {
+            "value": "custom-1",
+            "label": "t:settings_schema.styles.settings.accent_icons.options.options__5.label"
+          },
+          {
+            "value": "custom-2",
+            "label": "t:settings_schema.styles.settings.accent_icons.options.options__6.label"
           }
         ],
         "default": "text",

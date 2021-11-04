@@ -1,0 +1,92 @@
+{{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
+<style>
+/* Custom Code Parallax */
+
+.featured { 
+  position: relative !important; 
+  background-size: cover !important; 
+  background-position: center !important; 
+  background-repeat: no-repeat !important; 
+  background-attachment: fixed !important; 
+  height: 100vh; 
+  overflow: hidden; 
+} 
+  @media(max-width: 460px) {
+    div.featured.lazy.desktop {
+      display: none;
+    }
+    div.mobile{
+      display:block;
+      line-height:0;
+    }
+  }
+/*     .mobile > img {
+      display: block;
+  } */
+  @media(min-width: 460px) {
+    div.featured.lazy.desktop {
+      display:block;
+    }
+    div.mobile{
+      display:none;
+    }
+  }
+</style> 
+ <div 
+ class="featured lazy desktop" 
+ style="background: url(
+{% if section.settings.img_desktop %}
+  {{ section.settings.img_desktop | img_url: 'master' }}
+ {% else %}https://via.placeholder.com/1200x800
+{% endif %}) 50% 70%; width: 100%;"> 
+ </div> 
+{% if template == 'index' %}
+  <div class="mobile" >
+  {%- if section.settings.img_mobile != blank -%}
+     <img
+       src="{{ section.settings.img_mobile | img_url: '460x' }}"
+
+        alt="{{ section.settings.img_mobile.alt | escape }}"
+        width="100%"
+      />
+      {% else %}
+     <img
+       src="{{ section.settings.img_desktop | img_url: '460x' }}"
+
+        alt="{{ section.settings.img_desktop.alt | escape }}"
+        width="100%"
+      />
+      {%- endif -%}
+    </div>
+ {% else %}
+{%- endif -%}
+
+
+   
+ {% schema %} 
+ { 
+   "name": "Full Width Parallax", 
+   "settings": [ 
+     { 
+       "type": "header", 
+       "content": "Parallax featured product" 
+     }, 
+     { 
+       "type": "image_picker", 
+       "id": "img_desktop", 
+       "label": "Desktop Image" 
+     },
+          { 
+       "type": "image_picker", 
+       "id": "img_mobile", 
+       "label": "Mobile Image" 
+     }
+   ], 
+   "presets": [ 
+     { 
+       "name": "Image Parallax", 
+       "category": "Products" 
+     } 
+   ] 
+ } 
+ {% endschema %} 

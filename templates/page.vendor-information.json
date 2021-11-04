@@ -1,0 +1,125 @@
+{
+  "sections": {
+    "main": {
+      "type": "faq",
+      "blocks": {
+        "28b99165-29fc-4d09-9bc1-89e1ff14501f": {
+          "type": "QA",
+          "settings": {
+            "title": "product questions",
+            "question": "What Sorts Of Products Do You Take?",
+            "answer": "<p>Our focus is on products made in small batches in local communities. We do take products made overseas as long as you can demonstrate the sustainability of your small batch production. <\/p><p>We focus on overstock, past seasons, going out of business inventory, dead stock and samples. We also take in seconds but the mistakes must be negligible (wrong color, slight misalignment) and noted as such on your inventory sheet.<\/p><p>We try and make sure that we are offering a variety of items and have limited warehouse space. If your items are a fit we'll send you an account login. If you don't hear from us do try again in the future. <\/p>"
+          }
+        },
+        "4a6e79e5-ca17-42f4-b4a4-ef0e134bfcfd": {
+          "type": "QA",
+          "settings": {
+            "title": "how to apply",
+            "question": "How Do I Sign up to sell My Products In Your Store?",
+            "answer": "<p>It's super easy! Start by filling out our <a href=\"\/pages\/become-a-vendor\" title=\"Become A Vendor\">short Vendor application<\/a> and we will get back to you shortly.<\/p>"
+          }
+        },
+        "0335e819-c2c5-4bd4-a249-e5bfb0583b1e": {
+          "type": "QA",
+          "settings": {
+            "title": "fee structure",
+            "question": "What's Your Fee Structure Look Like?",
+            "answer": "<p><strong>OPTIONS<\/strong><\/p><p><strong>1. Dropship<\/strong><\/p><p>To only use our e-commerce marketplace you receive <strong>85%<\/strong> of all sales. You are responsible for entering your own products, photos and shipping. <\/p><p><strong>2. Pop Up & Online Sales<\/strong><\/p><p>We pay you <strong>50%<\/strong> for your in-store sales. (Requires you to give us a spreadsheet. We display\/enter your products & manage the shipping.)**<\/p><p><strong>3. Meet The Vendors Day<\/strong><\/p><p>You run your own shop in our space for a day and keep 100% of all sales. We ask that you offer our customers 25% off of all products you bring in. You must be a Vendor in our store to participate.<\/p><p>**Early Bird Access <\/p><p><em>For those who got us product prior to 11\/1\/2021 your online sales commission is 70%.<\/em><\/p>"
+          }
+        },
+        "97bc0293-edaa-425f-937b-062b637c4302": {
+          "type": "QA",
+          "settings": {
+            "title": "pop up",
+            "question": "Meet The Vendors Opportunity",
+            "answer": "<p>During our pop us shop we are hosting vendors who sell through us. It is an opportunity to run your own shop for a day and collect 100% of all sales. <\/p>"
+          }
+        },
+        "b78b70c5-f08c-49f3-9cf4-eb59599279c7": {
+          "type": "QA",
+          "settings": {
+            "title": "coop",
+            "question": "What is your co-op program?",
+            "answer": "<p>If you'd like to earn a higher commission and share in the profits of the pop-up come help run the shop! <\/p><p>As a member, after 8 hours the commission on all your items jumps to 70% for the week you worked. Each week you work an 8 hour shift your commission is 70%. <\/p><p>Each hour worked is counted towards a total and at the end of the pop up, all money earned from pop up sales would be split evenly between all the members who worked. <\/p><p>For example:<\/p><p>Total sold after commission and expenses have been paid out: 10k<\/p><p>Total hours everyone worked: 500 hours. <\/p><p>Total hours you worked: 40 hours<\/p><p>You take $800 plus 70% commission on all your items that sold.<\/p><p>This only applies to in-store sales. <\/p><p><em><strong>E-commerce sales are not included in this amount.<\/strong><\/em><\/p>"
+          }
+        },
+        "1dec3405-a0ce-45d8-a6a1-6e7d255fc90f": {
+          "type": "QA",
+          "settings": {
+            "title": "anon",
+            "question": "What if i don't want my brand listed in an outlet?",
+            "answer": "<p>We get that and if you'd prefer us not to mention your brand, no problem. We list your products under a number and don't refer to your brand in any of the descriptions, on our social media or on our vendor page. The only thing with your branding on it will be your labels & packaging. Just let us know you'd prefer to remain anonymous. <\/p>"
+          }
+        },
+        "ec950b3d-5d6c-4ced-a8d8-23f55ae754c6": {
+          "type": "QA",
+          "settings": {
+            "title": "pricing",
+            "question": "How should I price my items?",
+            "answer": "<p>All items must come in discounted by at least 25% from retail. <\/p><p>The goal of this store is to help you clear your space. It is advised to price your items as low as you can go. We suggest doubling the sunk costs of your item and padding it with 10%.<\/p><p>If your primary goal is to clear your space over recouping your costs let us know and we will continue to drop your prices for any unsold items after 60 days online.<\/p>"
+          }
+        },
+        "31bd4c44-700a-4f2a-b104-5f9712ce64f9": {
+          "type": "QA",
+          "settings": {
+            "title": "spreadsheet",
+            "question": "What Do I need to provide you?",
+            "answer": "<p>We will send you a spreadsheet template to fill out. Enter the <strong>retail price, sale price, variations, qty, weight, title, a brief description<\/strong> noting any special features (hand made, certified organic wood, beeswax, etc) or if the item is a second, note the damage. If you have <strong>photos<\/strong> you'd like us to use on the website please provide them as well as a url or via email.<\/p><p>After we tag, price and upload your products to our website you will need to double check your listings to make sure we got them right. Any incorrect listing you can adjust in your vendor portal.<\/p>"
+          }
+        },
+        "5465d740-4796-4018-b2d7-af86947a5c6f": {
+          "type": "QA",
+          "settings": {
+            "title": "not sold items",
+            "question": "What Do You Do With My Items If They Don't Sell?",
+            "answer": "<p>Our pop up store runs for 7 weeks. At the end of 7 weeks your products will be moved to our warehouse.<\/p><p>We keep your items online for 90 days total. After 90 days you will be given the option to drop your prices or pick up your items.<\/p><p>If, after two weeks, you have not picked up your items, we will donate them to a local charity and provide you with a donation receipt.<\/p>"
+          }
+        },
+        "a5f8d08f-cc91-4e4b-82bc-278c326dbfff": {
+          "type": "QA",
+          "settings": {
+            "title": "number",
+            "question": "How many items can I give to you?",
+            "answer": "<p>We take no less than 5 items and no more than 50 to start.<\/p><p><\/p>"
+          }
+        },
+        "d304b5d6-ba47-4c24-acf4-e040b8fa52c6": {
+          "type": "QA",
+          "settings": {
+            "title": "legal",
+            "question": "What happens if my items get stolen or lost while in your care?",
+            "answer": "<p>We are not responsible for any items lost or stolen from the pop up but your business insurance should cover any lost or stolen items while you are in a pop up.<\/p>"
+          }
+        },
+        "156b463f-111f-4552-b1c8-d200f022a0b0": {
+          "type": "QA",
+          "settings": {
+            "title": "contract",
+            "question": "What Do I Need To Bring With Me?",
+            "answer": "<p>Your products, a spreadsheet (you can send us a link) and a <a href=\"https:\/\/docs.google.com\/document\/d\/1_R0KcQgMPXErsPclYJc5tiG7aNQTdEjNFHnIMUa5YEk\/edit?usp=sharing\" title=\"https:\/\/docs.google.com\/document\/d\/1_R0KcQgMPXErsPclYJc5tiG7aNQTdEjNFHnIMUa5YEk\/edit?usp=sharing\">signed contract<\/a>. We are short on all display fixtures and would love to borrow yours. If you are bringing in clothing, please bring a rack and hangers. If you have an extra table or shelf please bring it in. We'd be very grateful!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "28b99165-29fc-4d09-9bc1-89e1ff14501f",
+        "4a6e79e5-ca17-42f4-b4a4-ef0e134bfcfd",
+        "0335e819-c2c5-4bd4-a249-e5bfb0583b1e",
+        "97bc0293-edaa-425f-937b-062b637c4302",
+        "b78b70c5-f08c-49f3-9cf4-eb59599279c7",
+        "1dec3405-a0ce-45d8-a6a1-6e7d255fc90f",
+        "ec950b3d-5d6c-4ced-a8d8-23f55ae754c6",
+        "31bd4c44-700a-4f2a-b104-5f9712ce64f9",
+        "5465d740-4796-4018-b2d7-af86947a5c6f",
+        "a5f8d08f-cc91-4e4b-82bc-278c326dbfff",
+        "d304b5d6-ba47-4c24-acf4-e040b8fa52c6",
+        "156b463f-111f-4552-b1c8-d200f022a0b0"
+      ],
+      "settings": {
+        "heading": "Vendor Info"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

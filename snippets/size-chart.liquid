@@ -1,0 +1,332 @@
+{% assign chart = product.type | handleize %}
+            
+{% comment %} BABY YANKER {% endcomment %}
+{% if chart == 'baby-one-pieces' and product.vendor == 'Yankers' %}
+<figure class="flex-sizing-boxes">
+<div class="sizechart-heading">
+<h2>Yank-N-Go Child Size Chart</h2>
+</div>
+<div class="sizechart-size-title">0-3 MONTHS</div>
+<div class="sizechart-content">
+<div class="sizechart-title">Chest</div>
+<div class="sizechart-item">14" - 15"</div>
+<div class="sizechart-title">Height</div>
+<div class="sizechart-item">18" - 23"</div>
+<div class="sizechart-title">Weight</div>
+<div class="sizechart-item">9-12 lbs</div>
+</div>
+<div class="sizechart-size-title">3-6 MONTHS</div>
+<div class="sizechart-content">
+<div class="sizechart-title">Chest</div>
+<div class="sizechart-item">15" - 16"</div>
+<div class="sizechart-title">Height</div>
+<div class="sizechart-item">23" - 27"</div>
+<div class="sizechart-title">Weight</div>
+<div class="sizechart-item">12 - 17 lbs</div>
+</div>
+<div class="sizechart-size-title">6-12 MONTHS</div>
+<div class="sizechart-content">
+<div class="sizechart-title">Chest</div>
+<div class="sizechart-item">17" - 18"</div>
+<div class="sizechart-title">Height</div>
+<div class="sizechart-item">27" - 29"</div>
+<div class="sizechart-title">Weight</div>
+<div class="sizechart-item">17 - 21 lbs</div>
+</div>
+<div class="sizechart-size-title">12-18 MONTHS</div>
+<div class="sizechart-content">
+<div class="sizechart-title">Chest</div>
+<div class="sizechart-item">18" - 19"</div>
+<div class="sizechart-title">Height</div>
+<div class="sizechart-item">29" - 31"</div>
+<div class="sizechart-title">Weight</div>
+<div class="sizechart-item">22 - 27 lbs</div>
+</div>
+<div class="sizechart-size-title">18-24 MONTHS</div>
+<div class="sizechart-content">
+<div class="sizechart-title">Chest</div>
+<div class="sizechart-item">19" - 20"</div>
+<div class="sizechart-title">Height</div>
+<div class="sizechart-item">31" - 33"</div>
+<div class="sizechart-title">Weight</div>
+<div class="sizechart-item">27 - 30 lbs</div>
+</div>
+<div class="sizechart-size-title">2T</div>
+<div class="sizechart-content">
+<div class="sizechart-title">Chest</div>
+<div class="sizechart-item">20" - 21"</div>
+<div class="sizechart-title">Height</div>
+<div class="sizechart-item">33" - 38"</div>
+<div class="sizechart-title">Weight</div>
+<div class="sizechart-item">31 - 35 lbs</div>
+</div>
+</figure>
+
+{% comment %} BABY & TODDLER {% endcomment %}
+{%elsif chart == 'baby-one-pieces' or chart == 'toddler-underwear' or chart == 'baby-toddler-bottoms' or chart == 'baby-toddler-tops'%}
+<figure class="flex-sizing-boxes">
+<div class="sizechart-heading">
+<h2>Infant Size Chart</h2>
+</div>
+<div class="sizechart-size-title">3-6 MONTHS</div>
+<div class="sizechart-content">
+<div class="sizechart-title">Chest</div>
+<div class="sizechart-item">12" - 14"</div>
+<div class="sizechart-title">Height</div>
+<div class="sizechart-item">20" - 24"</div>
+<div class="sizechart-title">Weight</div>
+<div class="sizechart-item">12-17 lbs</div>
+</div>
+<div class="sizechart-size-title">6-12 MONTHS</div>
+<div class="sizechart-content">
+<div class="sizechart-title">Chest</div>
+<div class="sizechart-item">14" - 16"</div>
+<div class="sizechart-title">Height</div>
+<div class="sizechart-item">25" - 28"</div>
+<div class="sizechart-title">Weight</div>
+<div class="sizechart-item">17-21 lbs</div>
+</div>
+<div class="sizechart-size-title">12-18 MONTHS</div>
+<div class="sizechart-content">
+<div class="sizechart-title">Chest</div>
+<div class="sizechart-item">16" - 18"</div>
+<div class="sizechart-title">Height</div>
+<div class="sizechart-item">29" - 31"</div>
+<div class="sizechart-title">Weight</div>
+<div class="sizechart-item">22-24 lbs</div>
+</div>
+<div class="sizechart-size-title">18-24 MONTHS</div>
+<div class="sizechart-content">
+<div class="sizechart-title">Chest</div>
+<div class="sizechart-item">18" - 20"</div>
+<div class="sizechart-title">Height</div>
+<div class="sizechart-item">32" - 34"</div>
+<div class="sizechart-title">Weight</div>
+<div class="sizechart-item">24-29 lbs</div>
+</div>
+</figure>
+<figure class="flex-sizing-boxes">
+<div class="sizechart-heading">
+<h2>Toddler Size Chart</h2>
+</div>
+<div class="sizechart-size-title">SMALL/2T</div>
+<div class="sizechart-content">
+<div class="sizechart-title">Chest</div>
+<div class="sizechart-item">20"- 21"</div>
+<div class="sizechart-title">Waist</div>
+<div class="sizechart-item">19"-20"</div>
+<div class="sizechart-title">Height</div>
+<div class="sizechart-item">32"- 36"</div>
+</div>
+<div class="sizechart-size-title">MEDIUM/4T</div>
+<div class="sizechart-content">
+<div class="sizechart-title">Chest</div>
+<div class="sizechart-item">22- 23"</div>
+<div class="sizechart-title">Waist</div>
+<div class="sizechart-item">20.5"-21"</div>
+<div class="sizechart-title">Height</div>
+<div class="sizechart-item">36"- 40"</div>
+</div>
+<div class="sizechart-size-title">LARGE/6T</div>
+<div class="sizechart-content">
+<div class="sizechart-title">Chest</div>
+<div class="sizechart-item">24"- 25"</div>
+<div class="sizechart-title">Waist</div>
+<div class="sizechart-item">21.5"-22"</div>
+<div class="sizechart-title">Height</div>
+<div class="sizechard-item">40"- 43"</div>
+</div>
+</figure>
+
+{% comment %} WOMAN UNISEX TOPS {% endcomment %}
+{% elsif chart == 'shirts-tops' or chart == 'bras' %}
+<figure class="flex-sizing-boxes">
+<div class="sizechart-heading">
+<h2>Women Tops Size Chart</h2>
+</div>
+<div class="sizechart-size-title">SMALL</div>
+<div class="sizechart-content">
+<div class="sizechart-title">Chest</div>
+<div class="sizechart-item">34"- 37"</div>
+<div class="sizechart-title">Waist</div>
+<div class="sizechart-item">25"- 26"</div>
+</div>
+<div class="sizechart-size-title">MEDIUM</div>
+<div class="sizechart-content">
+<div class="sizechart-title">Chest</div>
+<div class="sizechart-item">37"- 39"</div>
+<div class="sizechart-title">Waist</div>
+<div class="sizechart-item">27"- 28"</div>
+</div>
+<div class="sizechart-size-title">LARGE</div>
+<div class="sizechart-content">
+<div class="sizechart-title">Chest</div>
+<div class="sizechart-item">39"- 41"</div>
+<div class="sizechart-title">Waist</div>
+<div class="sizechart-item">30"- 32"</div>
+</div>
+<div class="sizechart-size-title">X-LARGE</div>
+<div class="sizechart-content">
+<div class="sizechart-title">Chest</div>
+<div class="sizechart-item">41"- 43"</div>
+<div class="sizechart-title">Waist</div>
+<div class="sizechart-item">33"- 35"</div>
+</div>
+</figure>
+<figure class="flex-sizing-boxes">
+<div class="sizechart-heading">
+<h2>Unisex Tops Size Chart</h2>
+</div>
+<div class="sizechart-size-title">SMALL</div>
+<div class="sizechart-content">
+<div class="sizechart-title">Chest</div>
+<div class="sizechart-item">34"- 36"</div>
+<div class="sizechart-title">Waist</div>
+<div class="sizechart-item">28"- 30"</div>
+</div>
+<div class="sizechart-size-title">MEDIUM</div>
+<div class="sizechart-content">
+<div class="sizechart-title">Chest</div>
+<div class="sizechart-item">38"- 40"</div>
+<div class="sizechart-title">Waist</div>
+<div class="sizechart-item">32"- 34"</div>
+</div>
+<div class="sizechart-size-title">LARGE</div>
+<div class="sizechart-content">
+<div class="sizechart-title">Chest</div>
+<div class="sizechart-item">42"- 44"</div>
+<div class="sizechart-title">Waist</div>
+<div class="sizechart-item">36"- 38"</div>
+</div>
+<div class="sizechart-size-title">X-LARGE</div>
+<div class="sizechart-content">
+<div class="sizechart-title">Chest</div>
+<div class="sizechart-item">46"- 48"</div>
+<div class="sizechart-title">Waist</div>
+<div class="sizechart-item">40"- 42"</div>
+</div>
+<div class="sizechart-size-title">XX-LARGE</div>
+<div class="sizechart-content">
+<div class="sizechart-title">Chest</div>
+<div class="sizechart-item">50"- 52"</div>
+<div class="sizechart-title">Waist</div>
+<div class="sizechart-item">44"- 46"</div>
+</div>
+</figure>
+
+{% comment %} WOMENS BOOTY SHORTS {% endcomment %}
+{%elsif chart == 'shorts' and product.vendor == 'Nonesuch'%}
+<figure class="flex-sizing-boxes">
+<div class="sizechart-heading">
+<h2>Women's Booty Shorts Size Chart</h2>
+</div>
+<div class="sizechart-size-title">X-SMALL</div>
+<div class="sizechart-content">
+<div class="sizechart-title">Waist</div>
+<div class="sizechart-item">24"- 26"</div>
+<div class="sizechart-title">Hips</div>
+<div class="sizechart-item">35"- 36"</div>
+</div>
+<div class="sizechart-size-title">SMALL</div>
+<div class="sizechart-content">
+<div class="sizechart-title">Waist</div>
+<div class="sizechart-item">27"- 29"</div>
+<div class="sizechart-title">Hips</div>
+<div class="sizechart-item">37"- 39"</div>
+</div>
+<div class="sizechart-size-title">MEDIUM</div>
+<div class="sizechart-content">
+<div class="sizechart-title">Waist</div>
+<div class="sizechart-item">30"- 32"</div>
+<div class="sizechart-title">Hips</div>
+<div class="sizechart-item">40"- 42"</div>
+</div>
+<div class="sizechart-size-title">LARGE</div>
+<div class="sizechart-content">
+<div class="sizechart-title">Waist</div>
+<div class="sizechart-item">33"- 35"</div>
+<div class="sizechart-title">Hips</div>
+<div class="sizechart-item">42"- 45"</div>
+</div>
+<div class="sizechart-size-title">X-LARGE</div>
+<div class="sizechart-content">
+<div class="sizechart-title">Waist</div>
+<div class="sizechart-item">36"- 38"</div>
+<div class="sizechart-title">Hips</div>
+<div class="sizechart-item">46"- 48"</div>
+</div>
+</figure>
+
+{% comment %} WOMENS CLOTHING {% endcomment %}
+{%elsif chart == 'dresses' or chart == 'underwear' or chart == 'shorts' or chart == 'pants' or chart == 'jumpsuits-rompers' or chart == 'skirts'%}
+<figure class="flex-sizing-boxes">
+<div class="sizechart-heading">
+<h2>Women's Size Chart</h2>
+</div>
+<div class="sizechart-size-title">X-SMALL</div>
+<div class="sizechart-content">
+<div class="sizechart-title">Chest</div>
+<div class="sizechart-item">32"- 34"</div>
+<div class="sizechart-title">Waist</div>
+<div class="sizechart-item">25"- 27"</div>
+<div class="sizechart-title">Hips</div>
+<div class="sizechart-item">35"- 37"</div>
+<div class="sizechart-title">Shoulder To Crotch</div>
+<div class="sizechart-item">26.5"</div>
+</div>
+<div class="sizechart-size-title">SMALL</div>
+<div class="sizechart-content">
+<div class="sizechart-title">Chest</div>
+<div class="sizechart-item">34"- 36"</div>
+<div class="sizechart-title">Waist</div>
+<div class="sizechart-item">27"- 29"</div>
+<div class="sizechart-title">Hips</div>
+<div class="sizechart-item">37"- 39"</div>
+<div class="sizechart-title">Shoulder To Crotch</div>
+<div class="sizechart-item">27.5"</div>
+</div>
+<div class="sizechart-size-title">MEDIUM</div>
+<div class="sizechart-content">
+<div class="sizechart-title">Chest</div>
+<div class="sizechart-item">36"- 38"</div>
+<div class="sizechart-title">Waist</div>
+<div class="sizechart-item">29"- 31"</div>
+<div class="sizechart-title">Hips</div>
+<div class="sizechart-item">39"- 41"</div>
+<div class="sizechart-title">Shoulder To Crotch</div>
+<div class="sizechart-item">28.5"</div>
+</div>
+<div class="sizechart-size-title">LARGE</div>
+<div class="sizechart-content">
+<div class="sizechart-title">Chest</div>
+<div class="sizechart-item">38"- 40"</div>
+<div class="sizechart-title">Waist</div>
+<div class="sizechart-item">31"- 33"</div>
+<div class="sizechart-title">Hips</div>
+<div class="sizechart-item">41"- 43"</div>
+<div class="sizechart-title">Shoulder To Crotch</div>
+<div class="sizechart-item">29"</div>
+</div>
+<div class="sizechart-size-title">X-LARGE</div>
+<div class="sizechart-content">
+<div class="sizechart-title">Chest</div>
+<div class="sizechart-item">41"- 44"</div>
+<div class="sizechart-title">Waist</div>
+<div class="sizechart-item">33"- 36"</div>
+<div class="sizechart-title">Hips</div>
+<div class="sizechart-item">43"- 44"</div>
+<div class="sizechart-title">Shoulder To Crotch</div>
+<div class="sizechart-item">30"</div>
+</div>
+</figure>
+
+
+{%endif%}
+<style>
+.flex-sizing-boxes {
+    display: block;
+}
+.sizechart-title {
+    text-align: center;
+}
+</style>

@@ -45,6 +45,13 @@
         },
         "gradient_background_2": {
           "label": "Background 2 gradient"
+        },	
+        "colors_custom_1": {	
+          "label": "Custom 1",	
+          "info": "Custom color used for solid button background."	
+        },	
+        "colors_custom_2": {	
+          "label": "Custom 2"
         }
       }
     },
@@ -89,19 +96,25 @@
           "options__2": {
             "label": "Accent 1"
           },
-          "options__3": {
-            "label": "Accent 2"
-          },
-          "label": "Sale badge color scheme"
-        },
-        "sold_out_badge_color_scheme": {
-          "options__1": {
-            "label": "Background 1"
-          },
-          "options__2": {
-            "label": "Inverse"
-          },
-          "label": "Sold out badge color scheme"
+          "options__3": {	
+            "label": "Accent 2"	
+          },	
+          "options__4": {	
+            "label": "Custom Color 1"	
+          },	
+          "label": "Sale badge color scheme"	
+        },	
+        "sold_out_badge_color_scheme": {	
+          "options__1": {	
+            "label": "Background 1"	
+          },	
+          "options__2": {	
+            "label": "Inverse"	
+          },	
+          "options__3": {	
+            "label": "Custom 2"	
+          },	
+          "label": "Sold out badge color scheme"	
         },
         "accent_icons": {
           "options__1": {
@@ -115,6 +128,12 @@
           },
           "options__4": {
             "label": "Text"
+          },
+          "options__5": {	
+            "label": "Custom 1"	
+          },	
+          "options__6": {	
+            "label": "Custom 2"	
           },
           "label": "Accent icons"
         }

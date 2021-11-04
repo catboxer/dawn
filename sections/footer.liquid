@@ -14,6 +14,14 @@
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'disclosure.css' | asset_url | stylesheet_tag }}</noscript>
 
+<div class="marquee-container">	
+  <div class="marquee marquee--long" style="--tw: 155ch; --ad: 12s;">	
+      <span>	
+          Hello. Life's Better When You Redistribute. Shop Local. Save Money. Consume Consciously. Buy Ethical Goods. Support Local Production. Good Buy.	
+      </span>	
+  </div>	
+</div>
+
 <footer class="footer color-{{ section.settings.color_scheme }} gradient">
   {%- if section.blocks.size > 0 or section.settings.newsletter_enable or section.settings.show_social -%}
     <div class="footer__content-top page-width">
@@ -304,8 +312,8 @@
           </div>
         {%- endif -%}
         <div class="footer__copyright caption">
-          <small class="copyright__content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
-          <small class="copyright__content">{{ powered_by_link }}</small>
+          <small class="copyright__content">&copy; {{ 'Makers Outlet Store' | link_to: routes.root_url }},{{ 'now' | date: "%Y" }}. All Rights Reserved. Made By <a href="https://thethisthat.com">The This That</a> </small>	
+          {% comment %} <small class="copyright__content">{{ powered_by_link }}</small> {% endcomment %}
         </div>
       </div>
     </div>

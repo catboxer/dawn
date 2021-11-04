@@ -119,3 +119,9 @@
 .collection-list__item .card-colored {
   position: relative;
 }
+/* Change card color in collection section */	
+.card-colored--yellow {	
+  background-color: none;	
+  border: 4px #e9226b dashed;	
+  border-radius: 10px;	
+}

@@ -1,0 +1,108 @@
+{
+  "sections": {
+    "main": {
+      "type": "no-size-chart-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "subtitle": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.my_fields.product_type.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "487b5bcb-0391-43fc-af1a-d2de1606174f": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Content",
+            "content": "<p>{{ product.metafields.my_fields.content | metafield_tag }}<\/p>",
+            "page": "",
+            "icon": "leather"
+          }
+        },
+        "dd3a24cf-f267-4492-ba21-66082070faa6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Measurements",
+            "content": "<p>{{ product.metafields.my_fields.measurement.value }}<\/p>",
+            "page": "",
+            "icon": "ruler"
+          }
+        },
+        "f3f76825-3c59-4b61-b1cc-0cf8b2896778": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Care Instructions",
+            "content": "<p>{{ product.metafields.descriptors.care_guide | metafield_tag }}<\/p>",
+            "page": "",
+            "icon": "washing"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "subtitle",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "487b5bcb-0391-43fc-af1a-d2de1606174f",
+        "dd3a24cf-f267-4492-ba21-66082070faa6",
+        "f3f76825-3c59-4b61-b1cc-0cf8b2896778"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "add_image_padding": true,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations"
+  ]
+}

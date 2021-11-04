@@ -810,3 +810,8 @@ a.product__text {
   margin: 0;
   width: 2.2rem;
 }
+		
+/*  custom code turn off dawn magnifier turn on incubate zoom */	
+  	
+.product__media-toggle {display: none !important;}	
+.product__modal-opener .product__media-icon {display: none !important;}

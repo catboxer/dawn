@@ -1,0 +1,19 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "1633275052f101f39e": {
+      "type": "parallax-feature",
+      "settings": {
+        "img_desktop": "shopify:\/\/shop_images\/rosalee-rester-horizontal.jpg"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1633275052f101f39e"
+  ]
+}

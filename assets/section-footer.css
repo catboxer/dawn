@@ -19,7 +19,7 @@
   }
 
   .footer-block.grid__item {
-    padding: 0;
+    padding: 2.5rem;
     margin: 4rem 0;
     width: 100%;
   }
@@ -43,7 +43,7 @@
   }
 
   .footer__content-top .grid__item {
-    padding-left: 3rem;
+    padding: 24px;
   }
 }
 
@@ -311,7 +311,7 @@
   box-shadow: 0 0 0 0.1rem rgba(var(--color-foreground), 0.55);
   position: relative;
   margin-bottom: 1.5rem;
-  border: 0.1rem solid transparent;
+  border: 0;
   padding-left: 1rem;
   text-align: left;
 }
@@ -510,3 +510,13 @@ noscript .localization-selector.link {
 .footer .disclosure__link--active {
   text-decoration: underline;
 }
+	/* custom curved newsletter signup */	
+  #NewsletterForm--footer{	
+    border-radius: 50px;	
+  }	
+  label.field__label{	
+    color:#e9226b;	
+  }	
+  #Subscribe > svg {	
+    color:#e9226b;	
+  }

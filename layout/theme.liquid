@@ -7,7 +7,14 @@
     <meta name="theme-color" content="">
     <link rel="canonical" href="{{ canonical_url }}">
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
-
+        <!-- Global site tag (gtag.js) - Google Analytics -->	
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q475RTLJXZ"></script>	
+    <script>	
+      window.dataLayer = window.dataLayer || [];	
+      function gtag(){dataLayer.push(arguments);}	
+      gtag('js', new Date());	
+      gtag('config', 'G-Q475RTLJXZ');	
+    </script>
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | img_url: '32x32' }}">
     {%- endif -%}
@@ -109,7 +116,10 @@
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
-
+    <script src="{{ 'shopify-money.js' | asset_url }}"></script>	
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>	
+    <script src="https://unpkg.com/vue@next"></script>
+    
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
     {%- endunless -%}

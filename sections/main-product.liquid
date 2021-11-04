@@ -70,7 +70,7 @@
     <div class="product__info-wrapper grid__item">
       <div id="ProductInfo-{{ section.id }}" class="product__info-container{% if section.settings.enable_sticky_info %} product__info-container--sticky{% endif %}">
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
-
+        <p class="product__text caption-with-letter-spacing"> {{ product.vendor | link_to_vendor }}</p>
         {%- for block in section.blocks -%}
           {%- case block.type -%}
           {%- when '@app' -%}
@@ -97,22 +97,45 @@
                 {%- endif -%}
               </div>
             {%- endif -%}
+            {% if product.price > 5000 %}
             <div {{ block.shopify_attributes }}>
               {%- form 'product', product, id: 'product-form-installment', class: 'installment caption-large' -%}
                 <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
                 {{ form | payment_terms }}
               {%- endform -%}
             </div>
+            {%- endif -%}
           {%- when 'description' -%}
             {%- if product.description != blank -%}
-              <div class="product__description rte">
-                {{ product.description }}
-              </div>
-            {%- endif -%}
-          {%- when 'custom_liquid' -%}
-            {{ block.settings.custom_liquid }}
-          {%- when 'collapsible_tab' -%}
-            <div class="product__accordion accordion" {{ block.shopify_attributes }}>
+            <div class="product__description rte product__description--desktop">	
+              {{ product.description }}	
+            </div>	
+            {%- endif -%}	
+          {% comment %} custom code description {% endcomment %}	
+{% if product.description != blank  %}	
+<div id="product__description--mobile" class="product__accordion accordion" {{ block.shopify_attributes }}>	
+           <details>	
+             <summary>	
+               <div class="summary__title">	
+{% render 'icon-accordion', icon: 'chat_bubble' %} 	
+                 <h2 class="h4 accordion__title">	
+                 Description	
+                 </h2>	
+               </div>	
+               {% render 'icon-caret' %}	
+             </summary>	
+             <div class="accordion__content rte">	
+               {{product.description}}	
+             </div>	
+           </details>	
+         </div>	
+         {%- endif -%}	
+    {% comment %} finish custom code {% endcomment %}	
+        {%- when 'custom_liquid' -%}	
+          {{ block.settings.custom_liquid }}	
+        {%- when 'collapsible_tab' -%}	
+         {% if block.settings.content != blank or block.settings.page.content != blank%}	
+          <div class="product__accordion accordion" {{ block.shopify_attributes }}>
               <details id="Details-{{ block.id }}-{{ section.id }}">
                 <summary>
                   <div class="summary__title">
@@ -129,6 +152,7 @@
                 </div>
               </details>
             </div>
+            {% endif %}
           {%- when 'quantity_selector' -%}
             <div class="product-form__input product-form__quantity" {{ block.shopify_attributes }}>
               <label class="form__label" for="Quantity-{{ section.id }}">
@@ -361,6 +385,26 @@
             {%- endif -%}
           {%- endcase -%}
         {%- endfor -%}
+{% comment %} custom code size chart {% endcomment %}	
+      {% if product.options contains 'Size' %}	
+        <div class="product__accordion accordion" {{ block.shopify_attributes }}>	
+                    <details>	
+                      <summary>	
+                        <div class="summary__title">	
+        {% render 'icon-accordion', icon: 'ruler' %} 	
+                          <h2 class="h4 accordion__title">	
+                          Sizing Chart	
+                          </h2>	
+                        </div>	
+                        {% render 'icon-caret' %}	
+                      </summary>	
+                      <div class="accordion__content rte">	
+                        {% render 'size-chart' %}	
+                      </div>	
+                    </details>	
+                  </div>	
+                  {%- endif -%}	
+      {% comment %} finish custom code {% endcomment %}	
       </div>
     </div>
   </div>
